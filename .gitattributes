@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+text crlf
+- crlf - text
+crlf=entrada eol=LF
+
+[testemunho]
+autocrlf = verdadeiro
+
+* text = automático
+
+* text = automático
+* .text text
+* .vcproj text eol=crlf
+* .sh text eol=lf
+* .jpg -text
